@@ -98,11 +98,15 @@ Run the following commands in the terminal:
 > Tip: `./install.sh` allows the following options:
 
 ```
--d, --dest DIR          Specify destination directory (Default: ~/.themes)
--n, --name NAME         Specify theme name (Default: Tokyonight)
--t, --theme VARIANT...  Specify theme color variant(s) [default|purple|pink|red|orange|yellow|green|teal|grey|all] (Default: blue)
--c, --color VARIANT...  Specify color variant(s) [light|dark] (Default: All variants)
--s, --size VARIANT...   Specify size variant [standard|compact] (Default: standard variant)
+-d, --dest DIR          Specify destination directory (Default: /home/angus/.themes)
+
+-n, --name NAME         Specify theme name (Default: Gruvbox)
+
+-t, --theme VARIANT     Specify theme color variant(s) [default|purple|pink|red|orange|yellow|green|teal|grey|all] (Default: blue)
+
+-c, --color VARIANT     Specify color variant(s) [light|dark] (Default: All variants))
+
+-s, --size VARIANT      Specify size variant [standard|compact] (Default: standard variant)
 
 -l, --libadwaita        Link installed gtk-4.0 theme to config folder for all libadwaita app use this theme
 
@@ -110,10 +114,11 @@ Run the following commands in the terminal:
 -u, --uninstall         Uninstall/Remove installed themes or links
 
 --tweaks                Specify versions for tweaks
-                        1. [medium|soft]       Medium|Soft| ColorSchemes version
-                        2. black               Blackness color version
-                        3. float               Floating gnome-shell panel style
-                        4. outline             Windows with 2px outline style
+                        1. [medium|soft]      Medium|Soft| ColorSchemes version
+                        2. black              Blackness color version
+                        3. outline            Windows with 2px outline style
+                        4. float              Floating gnome-shell panel style
+                        5. macos:                     Macos style windows button
 
 -h, --help              Show help
 ```

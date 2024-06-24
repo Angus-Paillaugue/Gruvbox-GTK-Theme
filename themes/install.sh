@@ -68,7 +68,7 @@ OPTIONS:
   --tweaks                Specify versions for tweaks
                           1. [medium|soft]	Medium|Soft| ColorSchemes version
                           2. black      	Blackness color version
-						  3. outline    	Windows with 2px outline style
+													3. outline    	Windows with 2px outline style
                           4. float      	Floating gnome-shell panel style
                           5. macos:			Macos style windows button
 
