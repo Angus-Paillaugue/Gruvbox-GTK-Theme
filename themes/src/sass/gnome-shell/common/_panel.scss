@@ -65,7 +65,7 @@
         }
 
         &:hover {
-            color: $primary;
+            // color: $text;
             background-color: transparent;
             box-shadow: inset 0 0 0 1000px mix($panel-text, $panel, 6%);
 
@@ -76,10 +76,10 @@
 
             &.clock-display {
                 box-shadow: none;
-                color: $panel-text-secondary;
+                // color: $panel-text-secondary;
 
                 .clock {
-                    color: $primary;
+                    // color: $primary;
                     box-shadow: inset 0 0 0 1000px mix($panel-text, $panel, 6%);
 
                     @if $float == 'true' {
@@ -96,33 +96,33 @@
         &:checked {
             &,
             &:hover {
-                color: $primary;
+                // color: $primary;
                 background-color: transparent;
                 box-shadow: inset 0 0 0 1000px mix($panel-text, $panel, 12%);
             }
 
             &.clock-display {
                 box-shadow: none;
-                color: $panel-text-secondary;
+                // color: $panel-text-secondary;
 
                 .clock {
-                    color: $primary;
+                    // color: $primary;
                     box-shadow: inset 0 0 0 1000px mix($panel-text, $panel, 12%);
                 }
             }
         }
 
-        .unlock-screen &,
-        .login-screen &,
-        .lock-screen & {
-            color: $panel-text;
+        // .unlock-screen &,
+        // .login-screen &,
+        // .lock-screen & {
+        //     color: $panel-text;
 
-            &:focus,
-            &:hover,
-            &:active {
-                color: $panel-text;
-            }
-        }
+        //     &:focus,
+        //     &:hover,
+        //     &:active {
+        //         color: $panel-text;
+        //     }
+        // }
 
         // status area icons
         .system-status-icon {

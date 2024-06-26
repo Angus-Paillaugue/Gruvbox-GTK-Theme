@@ -7,7 +7,7 @@ $colorscheme: 'default';
 $opacity: 'default';
 
 // Theme primary color
-$theme: 'default';
+$theme: 'grey';
 
 // Theme size
 $compact: 'false';
@@ -22,10 +22,10 @@ $panel_opacity: 0.6;
 $blackness: 'false';
 
 // Windows outline style
-$outline: 'false';
+$outline: 'true';
 
 // Windows button style : mac/normal
-$window_button: 'normal';
+$window_button: 'mac';
 
 // Gnome-Shell float panel version
-$float: 'false';
+$float: 'true';
